@@ -1,0 +1,9 @@
+.About__content {
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+
+.About__image {
+  border-radius: 50% 50% 0.3rem 0.3rem;
+  margin-top: 1rem;
+}
