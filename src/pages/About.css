@@ -1,9 +1,27 @@
-.About__content {
+.About__content-description {
   line-height: 1.5rem;
   margin: 1rem 0;
 }
 
 .About__image {
-  border-radius: 50% 50% 0.3rem 0.3rem;
-  margin-top: 1rem;
+  /* border-radius: 50% 50% 0.3rem 0.3rem; */
+  border-radius: 1.5rem 0 1.5rem 0;
+}
+
+@media (min-width: 1400px) {
+  .About {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .About__content {
+    flex: 1;
+  }
+
+  .About__image {
+    /* background-color: black; */
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+  }
 }

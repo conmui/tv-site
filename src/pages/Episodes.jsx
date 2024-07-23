@@ -7,7 +7,12 @@ function Episodes() {
   return (
     <div>
       <Title text={"Episodes"} />
-      <Quote text={'"They don\'t want honest. They want entertainment."'} />
+      <Quote
+        quote={'"They don\'t want honest. They want entertainment."'}
+        reference={
+          "Fuches, Barry, Season 2: Past = Present x Future Over Yesterday"
+        }
+      />
       <Logo />
     </div>
   );

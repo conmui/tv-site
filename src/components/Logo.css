@@ -1,0 +1,16 @@
+.Logo {
+  margin: 0 0 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 760px) {
+  .Logo {
+    margin: 1rem 0 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .Logo {
+    margin: auto;
+  }
+}

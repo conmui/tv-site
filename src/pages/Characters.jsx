@@ -8,7 +8,8 @@ function Characters() {
     <div>
       <Title text={"Characters"} />
       <Quote
-        text={'"You should be able to be the person that you say you are."'}
+        quote={'"You should be able to be the person that you say you are."'}
+        reference={"Barry Berkman, Barry, Season 2: What?!"}
       />
       <Logo />
     </div>

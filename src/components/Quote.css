@@ -1,3 +1,15 @@
 .Quote {
+  margin: 1.5rem 0;
+}
+
+.Quote__text {
   font-style: italic;
+  line-height: 1.5rem;
+}
+
+.Quote__reference {
+  color: #808080;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  margin: 0.2rem 0;
 }
