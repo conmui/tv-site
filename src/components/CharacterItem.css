@@ -1,0 +1,33 @@
+.CharacterItem__btn {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--black);
+  padding: 1rem 0;
+  width: 100%;
+}
+
+@media (min-width: 760px) {
+  .CharacterItem {
+    flex: 1 1 30%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .CharacterItem__btn {
+    border-bottom: none;
+    transition: all 0.5s ease-out;
+  }
+
+  .CharacterItem__btn:hover {
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 900;
+    letter-spacing: -1px;
+    padding-left: 2rem;
+  }
+
+  .CharacterItem__btn-icon {
+    display: none;
+    margin-left: 0.5rem;
+  }
+}

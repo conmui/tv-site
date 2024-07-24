@@ -6,7 +6,7 @@ import Episodes from "./pages/Episodes";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Router>
         <nav className="App__nav">
           <ul className="App__nav-list">
@@ -27,7 +27,7 @@ function App() {
           <Route path="/episodes" element={<Episodes />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

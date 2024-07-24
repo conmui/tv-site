@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+  --black: #000;
+  --grey: #808080;
+  --red: #f00;
+  --white: #fff;
+  margin: auto;
+  max-width: 100rem;
 }
 
 body {
   font-family: "Public Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   padding: 1rem;
 }
 
@@ -14,15 +20,20 @@ body {
 }
 
 a {
-  color: var(--black);
+  color: inherit;
   text-decoration: none;
 }
 
 button {
-  background-color: transparent;
+  background: none;
   border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
 }
 
 img {
+  display: block;
+  width: 100%;
   max-width: 100%;
 }

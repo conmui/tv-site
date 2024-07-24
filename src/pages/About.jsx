@@ -50,7 +50,7 @@ function About() {
 
       <img
         className="About__image"
-        src="/public/assets/poster_main.jpg"
+        src="/assets/poster_main.jpg"
         alt="man standing behind red curtain holding a gun"
       />
     </main>

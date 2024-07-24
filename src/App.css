@@ -2,16 +2,22 @@
   display: flex;
   gap: 1rem;
   justify-content: end;
-  padding: 1rem;
 }
 
 .App__nav-item {
-  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+@media (min-width: 760px) {
+  .App__nav-list {
+    margin-right: 1rem;
+  }
 }
 
 @media (min-width: 1440px) {
   .App__nav-list {
     gap: 3rem;
+    margin: 1rem;
   }
 
   .App__nav-item {
@@ -19,8 +25,10 @@
   }
 
   .App__nav-item:hover {
-    color: #ff0000;
+    background-color: var(--red);
+    color: var(--white);
     font-weight: 900;
     letter-spacing: -1px;
+    padding: 1rem 1.5rem;
   }
 }

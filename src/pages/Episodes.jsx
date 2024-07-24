@@ -8,12 +8,9 @@ function Episodes() {
     <div>
       <Title text={"Episodes"} />
       <Quote
-        quote={'"They don\'t want honest. They want entertainment."'}
-        reference={
-          "Fuches, Barry, Season 2: Past = Present x Future Over Yesterday"
-        }
+        quote={'"What?!"'}
+        reference={"Barry Berkman, Barry, Season 2: What?!"}
       />
-      <Logo />
     </div>
   );
 }
