@@ -1,0 +1,35 @@
+.EpisodeItem__btn {
+  border-bottom: 1px solid var(--black);
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.EpisodeItem__btn span {
+  display: block;
+  text-align: left;
+  line-height: 1.8rem;
+}
+
+.EpisodeItem__btn:focus {
+  color: var(--red);
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  word-spacing: 0.2rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+  .EpisodeItem__btn {
+    border-bottom: none;
+    transition: all 0.5s ease-out;
+  }
+
+  .EpisodeItem__btn:hover,
+  .EpisodeItem__btn:focus {
+    color: var(--red);
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    word-spacing: 0.2rem;
+    padding-left: 1.5rem;
+  }
+}

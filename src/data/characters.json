@@ -19,38 +19,56 @@
   },
   {
     "id": 4,
-    "name": "NoHo Hank",
-    "description": "Anthony Carrigan as NoHo Hank, an overly positive, polite, and naïve member of the Chechen mafia, and Goran's best friend and right-hand man, whose birth name is never revealed. Though he would be happier conducting legitimate business, particularly in sales, he sticks to his belief that being a gangster is his life's calling. Hank quickly becomes attached to Barry, who does not reciprocate his attempts at friendship. Following Goran's death, he becomes the leader of the Chechen mafia but struggles with this responsibility as he lacks in the skills necessary to be a gangster. Originally planned to be killed by Barry in the pilot episode, Hank was made a series regular after Carrigan's performance impressed the show's creators.",
-    "imgSrc": "noho-hank.png"
-  },
-  {
-    "id": 5,
-    "name": "Gene Cousineau",
-    "description": "Henry Winkler as Gene Cousineau, an eccentric acting coach and Barry's mentor whose glory days as a performer are long behind him, having alienated his industry colleagues and loved ones. Cousineau is self-absorbed and rarely seems to help his acting students, in whom he instills a nearly fanatical devotion, unless it directly benefits him. Despite this, he makes a connection with and serves as a father figure to Barry, helping him come to terms with his past atrocities and grow as a person until he learns of his criminal activity.",
-    "imgSrc": "gene-cousineau.png"
-  },
-  {
-    "id": 6,
     "name": "Goran Pazar",
     "description": "Glenn Fleshler as Goran Pazar, the leader of the Los Angeles branch of the Chechen mafia, who employs Barry to kill a man who has been sleeping with his wife, and whose gang is in conflict with a Bolivian drug cartel. Despite his ruthlessness as a crime boss, he cares greatly for his teenage daughter Natasha.",
     "imgSrc": "goran-pazar.png"
   },
   {
+    "id": 5,
+    "name": "NoHo Hank",
+    "description": "Anthony Carrigan as NoHo Hank, an overly positive, polite, and naïve member of the Chechen mafia, and Goran's best friend and right-hand man, whose birth name is never revealed. Though he would be happier conducting legitimate business, particularly in sales, he sticks to his belief that being a gangster is his life's calling. Hank quickly becomes attached to Barry, who does not reciprocate his attempts at friendship. Following Goran's death, he becomes the leader of the Chechen mafia but struggles with this responsibility as he lacks in the skills necessary to be a gangster. Originally planned to be killed by Barry in the pilot episode, Hank was made a series regular after Carrigan's performance impressed the show's creators.",
+    "imgSrc": "noho-hank.png"
+  },
+  {
+    "id": 6,
+    "name": "Gene Cousineau",
+    "description": "Henry Winkler as Gene Cousineau, an eccentric acting coach and Barry's mentor whose glory days as a performer are long behind him, having alienated his industry colleagues and loved ones. Cousineau is self-absorbed and rarely seems to help his acting students, in whom he instills a nearly fanatical devotion, unless it directly benefits him. Despite this, he makes a connection with and serves as a father figure to Barry, helping him come to terms with his past atrocities and grow as a person until he learns of his criminal activity.",
+    "imgSrc": "gene-cousineau.png"
+  },
+  {
     "id": 7,
+    "name": "Detective Mae Dunn",
+    "description": "Sarah Burns as Detective Mae Dunn (season 3; recurring season 2; guest season 4),[11] a naïve and obtuse investigator who becomes Loach's partner.",
+    "imgSrc": "detective-mae-dunn.png"
+  },
+  {
+    "id": 8,
+    "name": "Jim Moss",
+    "description": "Robert Wisdom as Jim Moss, the father of LAPD Detective Janice Moss, who previously served in the U.S. Army in the field of psychological warfare.",
+    "imgSrc": "jim-moss.png"
+  },
+  {
+    "id": 9,
     "name": "Detective Janice Moss",
     "description": "Paula Newsome as Detective Janice Moss, a police officer investigating the murder of Ryan Madison, who starts an on-and-off relationship with Gene. Her murder in the first-season finale becomes a central plot point for the remainder of the series.",
     "imgSrc": "detective-janice-moss.png"
   },
   {
-    "id": 8,
+    "id": 10,
+    "name": "Detective John Loach",
+    "description": "John Pirruccello as Detective John Loach (seasons 1-2), Moss' perpetually depressed partner who later finds himself investigating Barry.",
+    "imgSrc": "detective-john-loach.png"
+  },
+  {
+    "id": 11,
     "name": "Cristobal Sifuentes",
     "description": "Michael Irby as Cristobal Sifuentes, the leader of the Bolivian mafia's LA branch, Goran's main rival, and later Hank's love interest.",
     "imgSrc": "cristobal-sifuentes.png"
   },
   {
-    "id": 9,
-    "name": "Jim Moss",
-    "description": "Robert Wisdom as Jim Moss, the father of LAPD Detective Janice Moss, who previously served in the U.S. Army in the field of psychological warfare.",
-    "imgSrc": "jim-moss.png"
+    "id": 12,
+    "name": "Ryan Madison",
+    "description": "Tyler Jacob Moore as Richard Krempf / Ryan Madison, a personal trainer and actor in Gene's class whom Goran hires Barry to kill, though Ryan is instead killed by Chechen assassins.",
+    "imgSrc": "ryan-madison.png"
   }
 ]

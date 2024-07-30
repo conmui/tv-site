@@ -1,25 +1,20 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Title from "../components/Title";
 import Quote from "../components/Quote";
 import CharacterItem from "../components/CharacterItem";
 import Logo from "../components/Logo";
+import characters from "/src/data/characters.json";
 import "/src/pages/Characters.css";
 
 function Characters() {
-  const [characters, setCharacters] = useState([]);
   const [selectedCharacter, setSelectedCharacter] = useState("");
-  const [loading, setLoading] = useState(true);
+  const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    fetch("/src/data/characters.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setCharacters(data);
-        setSelectedCharacter(data[0]);
-        setLoading(false);
-      });
-  }, []);
+  const handleCharacter = (character) => {
+    setSelectedCharacter(character);
+    setOpen(true);
+  };
 
   return (
     <main className="Characters">
@@ -31,18 +26,29 @@ function Characters() {
         />
       </div>
 
-      {loading ? (
-        <div className="Characters__loading">
-          Waiting...
-          <img
-            className="Characters__loading-image"
-            src="/assets/loading-waiting.png"
-            alt="four men waiting on a bench"
-          />
-        </div>
-      ) : (
-        <div className="Characters__content">
-          <section className="Characters__details">
+      <div className="Characters__content">
+        <section className="Characters__listing">
+          <ul className="Characters__listing-list">
+            {characters.map((item) => (
+              <CharacterItem
+                key={item.id}
+                name={item.name}
+                imgSrc={item.imgSrc}
+                onClick={() => handleCharacter(item)}
+              />
+            ))}
+          </ul>
+          <Logo />
+        </section>
+
+        <section className={`Characters__details ${open ? "open" : ""}`}>
+          <div className="Characters__details-content">
+            <button
+              className="Characters__details-btn"
+              onClick={() => setOpen(false)}
+            >
+              <i className="ri-close-large-fill"></i>
+            </button>
             <h2 className="Characters__details-name">
               {selectedCharacter.name}
             </h2>
@@ -54,22 +60,9 @@ function Characters() {
               src={`/assets/characters/${selectedCharacter.imgSrc}`}
               alt=""
             />
-          </section>
-
-          <section className="Characters__listing">
-            <ul className="Characters__listing-list">
-              {characters.map((item) => (
-                <CharacterItem
-                  key={item.id}
-                  name={item.name}
-                  onClick={() => setSelectedCharacter(item)}
-                />
-              ))}
-            </ul>
-            <Logo />
-          </section>
-        </div>
-      )}
+          </div>
+        </section>
+      </div>
     </main>
   );
 }
